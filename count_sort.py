@@ -1,3 +1,4 @@
+# implementation of the counting sort algorithm in Python3
 def count_sort(array):
 	def count(num,array):
 		return len([i for i in array if(i == num)])
