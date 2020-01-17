@@ -20,6 +20,7 @@ def count_sort(array):
 		count_array[i]+=1
 	return final_array;
 
-inp = [3,2,1,5,8,6]
-print("INPUT ARRAY: {}".format(inp)) 
-print(count_sort(inp))
+if __name__ == '__main__':
+        inp = [3,2,1,5,8,6]
+        print("INPUT ARRAY: {}".format(inp)) 
+        print(count_sort(inp))
